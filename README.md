@@ -1,2 +1,2 @@
 # disc_POO
-Repositório da disciplina Programação Orientada a Objetos
+Repositório reservado para a disciplina Programação Orientada a Objetos
