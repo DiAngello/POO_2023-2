@@ -1,4 +1,5 @@
-package aulasPOO;
+package src;
+
 
 import java.util.Scanner;
 import java.util.Locale;
