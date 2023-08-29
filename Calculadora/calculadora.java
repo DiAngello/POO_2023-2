@@ -4,7 +4,6 @@ public class calculadora {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		// CADASTRO DOS VALORES
 		System.out.println("Digite o primeiro numero:");
 		double num1 = sc.nextDouble();
 		System.out.println("Digite a operacao ( + , - , * , / ):");
@@ -13,18 +12,17 @@ public class calculadora {
 		double num2 = sc.nextDouble();
 		double resultado = 0;
 		
-		//FUNÇÃO 'IF' CONFORME O SINAL
 		if (operacao == '+') {
-		resultado = num1 + num2;
+			resultado = num1 + num2;
 		} else if (operacao == '-') {
-		resultado = num1 - num2;
+			resultado = num1 - num2;
 		} else if (operacao == '*') {
-		resultado = num1 * num2;
+			resultado = num1 * num2;
 		} else if (operacao == '/') {
 		if (num2 != 0) {
-		resultado = num1 / num2;
+			resultado = num1 / num2;
 		} else {
-		System.out.println("Erro! Operacao invalida.");
+			System.out.println("Erro! Operacao invalida.");
 		return;
 		}
 		}
