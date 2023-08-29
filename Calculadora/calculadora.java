@@ -19,13 +19,16 @@ public class calculadora {
 		} else if (operacao == '*') {
 			resultado = num1 * num2;
 		} else if (operacao == '/') {
-		if (num2 != 0) {
-			resultado = num1 / num2;
-		} else {
-			System.out.println("Erro! Operacao invalida.");
-		return;
+			if (num2 != 0) {
+				resultado = num1 / num2;
+			}else {
+				System.out.println("Erro! Operacao invalida.");
+				return;
+			}
 		}
-		}
+		
 		System.out.printf("O resultado e: %.2f%n", resultado);
-		}
+		
+		sc.close();
+	}
 }
